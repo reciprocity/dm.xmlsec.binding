@@ -167,8 +167,8 @@ setupArgs = dict(
       'setuptools', # to make "buildout" happy
       LXML_REQUIREMENT,
     ] ,
-    #namespace_packages=['dm', 'dm.xmlsec',
-    #                    ],
+    namespace_packages=['dm', 'dm.xmlsec',
+                        ],
     zip_safe=False,
     entry_points = dict(
       ),
